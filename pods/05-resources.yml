@@ -7,10 +7,10 @@ spec:
   - image: nginx
     name: nginx
     resources:
-      requests:
+      requests:  #Min
         memory: "64Mi"
         cpu: "250m"
-      limits:
+      limits:   #on availability only
         memory: "128Mi"
         cpu: "500m"
 
